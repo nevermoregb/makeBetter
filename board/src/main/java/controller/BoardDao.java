@@ -18,7 +18,7 @@ public class BoardDao {
 			pstmt.setString(1, vo.getTitle());
 			pstmt.setString(2, vo.getWriter());
 			pstmt.setString(3, vo.getContent());
-			int 
+
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
